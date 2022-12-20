@@ -1,0 +1,66 @@
+.kutu{
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.89);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 1s;
+}
+.kutu:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(37, 37, 37);
+    width: 800px;
+    height: 450px;
+    color: white;
+    background-image: url();
+}
+
+.kutu h3{
+    margin-top:50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.kutu p{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+
+
+
+/*    RESİMLER    */
+body{
+  background-image: url(background.jpg);
+}
+  #image-track {
+    display: flex;
+    gap: 4vmin; /*boşluk*/
+    position: absolute;
+    left:10%;
+    top: 55%;
+    transform: translate(0%, -50%); 
+    user-select:none;
+  }
+  
+  #image-track > .image {
+    border-radius: 20px;
+    width: 30vmin;
+    height: 36vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    margin-bottom: 200px;
+    transition: 1s;
+}
+
+  #image-track > .image:hover {
+    border-radius: 15px;
+    width: 36vmin;
+    height: 40vmin;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }

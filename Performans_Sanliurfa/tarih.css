@@ -1,0 +1,31 @@
+body{
+    background: url(background_tarih.jpg);
+    object-fit: fill;
+}
+.metin{
+    color: rgba(231, 231, 231, 0.856);
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: -150px;
+    transition: 1s;
+}
+.box{
+    margin-top: -100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.box:hover{
+    background-color: rgba(12, 12, 12, 0.842);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.metin:hover{
+    color: rgb(192, 116, 255);
+    font-size: 25px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+body{
+  background-image: url(turizm.jpg);
+}
+/* Carousel */
+.about-us-service-title {
+    text-align: center;
+  }
+  
+  .carousel-container {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    height: 450px;
+    max-width: 800px;
+    min-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    /*font setting*/
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+  }
+  
+  .carousel-card {
+    border-radius: 40px;
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    transition: 1s;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    background-color: #1f1f1f;
+    color: #FFF;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+  }
+  
+  .carousel-icon {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+  }
+  
+  #far-left {
+    left: 15%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #f0f0f094;
+  }
+  
+  #left {
+    left: 30%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #center {
+    left: 50%;
+    transform: scale(1.05) translateY(0%) translateX(-50%);
+    z-index: 15;
+  }
+  
+  #right {
+    left: 70%;
+    transform: scale(1) translateY(0%) translateX(-50%);
+    z-index: 10;
+    background-color: #C3C3C3;
+  }
+  
+  #far-right {
+    left: 80%;
+    transform: scale(.9) translateY(0%) translateX(-50%);
+    z-index: 5;
+    background-color: #f0f0f094;
+  }
+  
+  .carousel-card:hover {
+    background-color:#3b3b3b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+}
